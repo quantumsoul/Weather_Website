@@ -1,4 +1,3 @@
-console.log('client side javascript file is loaded!')
 const wform = document.querySelector('form')
 const search = document.querySelector('input')
 const message1 = document.querySelector('#message-1')
