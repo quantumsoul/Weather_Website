@@ -6,7 +6,7 @@ wform.addEventListener('submit',(e)=>{
     e.preventDefault()
     const location = search.value
     message1.textContent = 'loading'
-    const l = 'http://localhost:3000/weather?address=' + location
+    const l = '/weather?address=' + location
     fetch(l).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
